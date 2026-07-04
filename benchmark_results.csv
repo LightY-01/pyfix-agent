@@ -1,0 +1,16 @@
+Name,Status,Iterations
+NameError/script1.py,Fixed,1
+NameError/script2.py,Fixed,1
+NameError/script3.py,Fixed,1
+IndexError/script1.py,Fixed,1
+IndexError/script2.py,Fixed,1
+IndexError/script3.py,Fixed,1
+TypeError/script1.py,Fixed,1
+TypeError/script2.py,Fixed,1
+TypeError/script3.py,Fixed,1
+AttributeError/script1.py,Fixed,1
+AttributeError/script2.py,Fixed,1
+AttributeError/script3.py,Fixed,1
+LogicBugs/script1.py,Fixed,1
+LogicBugs/script2.py,Fixed,1
+LogicBugs/script3.py,Fixed,1

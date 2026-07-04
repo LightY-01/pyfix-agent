@@ -11,7 +11,7 @@ token = get_token()
 with open("benchmark_results.csv", "a", newline="") as csvfile:
     writer = csv.writer(csvfile)
 
-    categories = ["AttributeError", "LogicBugs"]
+    categories = ["NameError", "IndexError", "TypeError", "AttributeError", "LogicBugs"]
     for category in categories:
         print(f"Fixing scripts in {category} category...")
         for i in range(1,4):

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyfix-agent"
+version = "1.0.2"
+description = "An autonomous, multi-turn AI debugging agent built from scratch using AST surgery."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Jaswin Reddy"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: Software Development :: Debuggers",
+]
+dependencies = [
+    "huggingface_hub>=0.20.0",
+]
+
+[project.scripts]
+pyfix-agent = "pyfix_agent:main"
+
+[tool.setuptools]
+py-modules = ["pyfix_agent"]
